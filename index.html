@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hair Care</title>
+  <!-- <link rel="stylesheet" href="./css/review.css"> -->
+  <!--LINK CSS FILE FOR STYLING & LAYOUT-->
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/popup.css">
+  <!--LINK FONT AWESOME FOR ICONS-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css'>
+  <!--LINK JQUERY FOR COOL EFFECT-->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <!--LINK BOOTSTRAP CSS FOR RESPONSIVE DESIGN-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <!--LINK AOS LIBRARY CSS FOR ANIMATION-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!--LINK SMOOTH SCROLL LIBRARY FOR SMOOTHLY SCROLLING TO ANCHORS-->
+  <script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.polyfills.min.js"></script>
+  <!--LINK FONT POPPINS-->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <!--LINK FONT JOSEFIN-->
+  
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+    <!-- Own Carousel  cdn-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+</head>
+
+<body>
+
+  <!--Notification After some second starting-->
+  <div class="notifications" id="notifications">
+    <div class="notification">
+      <div class="cut" onclick="notificationLoadCut()"><i class="fa-solid fa-x"></i></div>
+      <img src="https://shop.delacquasalon.com/wp-content/uploads/2019/06/glimmer-shine-100-ml.jpg" alt="">
+      <div class="content">
+        <h6>Hair Oil Nourishing With <br>Face Serum</h6>
+        <p>Someone Recontly Boutght From<br> Texas Us</p>
+      </div>
+    </div>
+  </div>
+  <!--Notification After some second ending-->
+
+
+  
+   <!--Notification After some second starting-->
+   <div class="notifications" id="notifications1">
+    <div class="notification">
+      <div class="cut" onclick="notificationLoadCut1()"><i class="fa-solid fa-x"></i></div>
+      <img src="https://avatars.mds.yandex.net/i?id=3044a21c212d739d6fc2ed94acf28c68_l-10332876-images-thumbs&ref=rim&n=13&w=500&h=500" alt="">
+      <div class="content">
+        <h6>Hair Spray With Black <br> Metalic Body </h6>
+        <p>Someone Recontly Boutght From<br> Karachi Pakistan</p>
+      </div>
+    </div>
+  </div>
+  <!--Notification After some second ending-->
+
+
+  <!--PRELOADER-->
+
+  <div class="preloader" id="preloader">
+    <div class="loader">
+      <div class="circle"></div>
+    </div>
+  </div>
+
+  <!--Modal Show ON Onload-->
+  <div class="modalPopups">
+    <div class="modalPopup">
+      <img src="https://avatars.mds.yandex.net/i?id=3044a21c212d739d6fc2ed94acf28c68_l-10332876-images-thumbs&ref=rim&n=13&w=500&h=500" width="300" alt="">
+      <div class="content">
+        <div class="cut" onclick="hideModal()">
+          <i class="fa-solid fa-x"></i>
+        </div>
+        <h2>Upto 45% Off!</h2>
+        <p>Subcribe Today and Get upto 45% Off<br> on your first purchase</p>
+        <form action="">
+          <input type="text" name="" id="" placeholder="Enter Your Email">
+          <input type="submit" value="Subcribe">
+
+        </form>
+        <div class="check">
+          <input type="checkbox" name="" id="">
+          <span>Dont Show This Popup Again</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+   <!--Product open popup starting-->
+   <div class="popupsss" id="popups">
+    <!-- <div class="popup">
+        <div class="cut">
+            &#10005;
+        </div>
+      
+     <div class="pop">
+      <img src="./images/img4.png" alt=""     >
+       
+      <div class="content">
+          <span>Hair Loss</span>
+          <h1>Hair Loss Treatment Avacasi</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, exercitationem, nihil quas soluta natus tempora repellat qui, possimus eum sapiente sit laborum. Modi, porro tempora! Quam veniam unde laboriosam commodi!
+          Vel molestiae ullam, similique perferendis eveniet debitis voluptate vitae sit voluptas, sunt nihil ut mollitia ad! Fugit ipsam accusamus voluptas, facilis repellat dignissimos repellendus harum ex nostrum, omnis pariatur itaque.</p>
+          <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>4.5 (100 reviews)</span>
+          </div>
+          <a href="#" class="btn">Watch Reviews</a>
+      </div>
+     </div>
+       
+    </div> -->
+    
+  </div>
+  <!--Product open popup ending-->
+ 
+
+  <!--NAVBAR STARTING-->
+  <div id="navs" class="navbars d-flex justify-content-sm-between justify-content-center justify-content-lg-evenly"
+    data-aos="silde-up">
+    <div class="logo">Hair <span>Care</span></div>
+    <div class="navigation d-none d-lg-flex">
+      <a href="index.html">Home</a>
+      <a href="compare.html">Compare</a>
+      <a href="product.html">Product</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="remidies.html">Remedies</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="icons d-sm-flex d-none">
+      <i class="py-2 px-2 fa-solid fa-heart"></i>
+      <i class="py-2 px-2 fa-solid fa-bell"></i>
+      <a href="cart.html">
+        <i class="py-2 px-2 fa-solid fa-shopping-cart"></i>
+      </a>
+      <i>
+        <div class="bars d-block d-lg-none" onclick="navToggler()">
+          <i class="fa-solid fa-bars humburger"></i>
+        </div>
+        
+      </i>
+    </div>
+
+    <div class="sideMenu position-fixed top-0 bottom-0">
+      <i class="fa-solid fa-times close-menu position-absolute" onclick="navToggler()"></i>
+      <ul class="d-flex flex-column position-absolute">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="compare.html">Compare</a></li>
+        <li><a href="product.html">Product</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="remidies.html">Remedies</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="navs d-sm-none position-fixed w-100 justify-content-between px-4 bottom-0 d-flex">
+      <span class="d-flex flex-column">
+        <i class="py-2 px-2 fa-solid fa-heart"></i>
+        <span>Wishlist</span>
+      </span>
+      <span class="d-flex flex-column">
+        <i class="py-2 px-2 fa-solid fa-bell"></i>
+        <span>Notification</span>
+      </span>
+      <span class="d-flex flex-column">
+        <a href="cart.html">
+          <i class="py-2 px-2 fa-solid fa-shopping-cart"></i>
+        </a>
+        <span>Cart</span>
+      </span>
+      <span class="d-flex flex-column">
+        <i class="py-2 px-2 fa-solid fa-bars humburger" onclick="navToggler()"></i>
+        <span>Menu</span>
+      </span>
+      
+    </div>
+  </div>
+
+
+
+  <!--NAVBAR ENDING-->
+
+  <!--HERO SECTION STARTING-->
+  <section class="hero" data-aos="fade-up">
+    <div class="floating-imgss">
+      <img src="./images/floating img.png" alt="" />
+    </div>
+
+    <div class="content floating-img z-3" data-aos="fade-up">
+      <span class="text-[pink]" data-aos="slide-down">Hair Oil</span>
+      <h1 data-aos="slide-left" class="text-black">
+        Transform Your Hair<br />
+        with Pamolive's Natural Touch
+      </h1>
+      <p data-aos="slide-right" class="">
+        Experience the perfect blend of nature and care with Pamolive's
+        premium hair care products. Designed to and strength of healthy hair.
+        Let Pamolive be your trusted partner in achieving your hair goals
+        effortlessly.
+      </p>
+
+      <div>
+        <button onclick="scrollDown()">Discover More</button>
+      </div>
+    </div>
+  </section>
+  <!--HERO SECTION ENDING-->
+
+  <!--OFFER SECTION STARTING-->
+
+
+  <section class="offer text-center px-4 services d-flex  flex-column sm:px-6 px-2 py-4 justify-content-center  gap-5">
+    <div data-aos="fade-up" class="head d-flex flex-column gap-3">
+
+      <span>Our Employees</span>
+      <h1>Reveal Your Hair’s True Potential!</h1>
+      <p>At Ultimate Hair Care, our skilled team of professionals is dedicated to providing personalized solutions for
+        your unique hair needs. We bring the latest innovations and techniques to help you achieve healthy, shiny, and
+        beautiful hair effortlessly. Join us in discovering the best treatments and products designed to make every day
+        a great hair day!</p>
+    </div>
+
+    <div data-aos="fade-up" class="middle d-flex flex-column gap-3 m-auto">
+      <img src="./images/signature.png" alt="" width="200px" class="m-auto justify-center">
+      <h1 class="sm:text-3xl text-2xl">
+        Dr.Muhammad Layan
+      </h1>
+      <p class="">
+        Hair Care Specialist
+      </p>
+    </div>
+    <div class="end text-left gap-5 align-items-center d-flex flex-lg-row flex-column-reverse justify-content-evenly">
+      <div data-aos="fade-up" class="content z-3 d-flex flex-column gap-2">
+        <span>Exceptional Care</span>
+        <h1 class="sm:text-4xl text-2xl">Solutions For Every Need</h1>
+        <p>Your hair care solution is just one step away. We offer the best treatments,<br> products, and services to
+          make your hair look fabulous.</p>
+        <div class="servies">
+          <div class="sirvise">
+            <h6>Hair Loss</h6>
+            <i class="fa-solid fa-user-minus"></i>
+          </div>
+
+          <div class="sirvise">
+            <h6>Graying</h6>
+            <i class="fa-solid fa-snowflake"></i>
+          </div>
+
+          <div class="sirvise">
+            <h6>Growth Related</h6>
+            <i class="fa-solid fa-seedling"></i>
+          </div>
+
+          <div class="sirvise">
+            <h6>Premature Baldness</h6>
+            <i class="fa-solid fa-balance-scale-left"></i>
+          </div>
+        </div>
+        <div class="contact flex-wrap d-flex justify-content-between align-items-start mt-5">
+          <div class="d-flex align-items-center">
+            <div>
+
+              <span>Get Appointment</span>
+              <p>Info@haircare.world</p>
+            </div>
+            <i class="fa-solid fa-message"></i>
+          </div>
+          <div>
+            <button class="">View More</button>
+          </div>
+        </div>
+
+      </div>
+      <div data-aos="fade-up">
+        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA17QcAt.img" alt=""
+          class="position-relative img">
+        <img src="https://st34.stblizko.ru/images/product/427/727/400_medium.jpg" alt=""
+          class="position-absolute dimg1 d-md-block d-none" width="125px" height="125px">
+      <img
+          src="https://rus-buket.ru/files/blog/articles/rusbuket-1614591260978.jpg"
+          alt="" class="position-absolute dimg2 d-md-block d-none" width="125px" height="125px">
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!--OFFER SECTION ENDING-->
+
+
+  <!--HEADLINE STARTING-->
+
+  <section class=" headline">
+    <marquee behavior="scroll" direction="left" scrollamount="30">
+
+      <div>
+
+        <div class="mains d-flex justify-content-center">
+          <div class="main"><span>30%</span> Off On Pre Appointment</div>
+          <div class="main"><span>30%</span> Off On Pre Appointment</div>
+          <div class="main"><span>30%</span> Off On Pre Appointment</div>
+          <div class="main"><span>30%</span> Off On Pre Appointment</div>
+        </div>
+    </marquee>
+  </section>
+  <!--HEADLINE STARTING-->
+
+  <!------TREATMENTS SECTION STARTING----->
+
+
+  <section class="treatment  d-flex justify-content-center flex-column text-center">
+
+    <div data-aos="fade-up" class="headings">
+
+      <span>Treatments</span>
+      <h1>Which Treatments We Provided</h1>
+    </div>
+
+    <div class="products">
+
+      <!--Products will dynamicly add here-->
+    </div>
+
+
+
+  </section>
+
+
+
+
+  <div class="modals">
+
+  </div>
+
+  <!-- Start of the Accordion -->
+  <div class="faq-container">
+    <span>FAQs</span>
+    <h1>Frequently Asked Questions</h1>
+
+    <!-- Hair Care Related FAQ Items -->
+    <div data-aos="fade-up" class="faq-item">
+      <button class="faq-question">
+        What are the benefits of using a sulfate-free shampoo?
+        <span class="arrow">&#9660;</span>
+      </button>
+      <div class="faq-answer">
+        <p>Sulfate-free shampoos are gentler on the hair, preserving natural oils and moisture, which makes them ideal
+          for dry or color-treated hair.</p>
+      </div>
+    </div>
+
+    <div data-aos="fade-up" class="faq-item">
+      <button class="faq-question">
+        How can I prevent hair damage from heat styling?
+        <span class="arrow">&#9660;</span>
+      </button>
+      <div class="faq-answer">
+        <p>Using a heat protectant spray and adjusting the temperature of styling tools can help prevent damage from
+          heat styling.</p>
+      </div>
+    </div>
+
+    <div data-aos="fade-up" class="faq-item">
+      <button class="faq-question">
+        What should I do if I have a dry scalp?
+        <span class="arrow">&#9660;</span>
+      </button>
+      <div class="faq-answer">
+        <p>A moisturizing shampoo, along with regular scalp treatments and oils like coconut or tea tree, can help
+          alleviate dryness and flakiness.</p>
+      </div>
+    </div>
+
+    <div data-aos="fade-up" class="faq-item">
+      <button class="faq-question">
+        How often should I trim my hair?
+        <span class="arrow">&#9660;</span>
+      </button>
+      <div class="faq-answer">
+        <p>It's recommended to trim your hair every 6 to 8 weeks to keep it healthy, remove split ends, and maintain the
+          shape.</p>
+      </div>
+    </div>
+
+    <div data-aos="fade-up" class="faq-item">
+      <button class="faq-question">
+        How can I make my hair grow faster and healthier?
+        <span class="arrow">&#9660;</span>
+      </button>
+      <div class="faq-answer">
+        <p>A balanced diet, proper hair care routine, regular scalp massage, and minimizing heat styling can contribute
+          to faster and healthier hair growth.</p>
+      </div>
+    </div>
+
+  </div>
+  <!-- End of the Accordion -->
+
+
+
+  <!------Equipment SECTION STARTING----->
+
+
+  <section class="equipment   d-flex justify-content-center flex-column text-center">
+
+    <div data-aos="fade-up" class="headings">
+
+      <span>Equipments</span>
+      <h1>Which Equipments We Provided</h1>
+    </div>
+
+    <div class="equipmentProducts ">
+
+      <!--Products will dynamicly add here-->
+    </div>
+
+
+
+  </section>
+
+
+  <!------Equipment SECTION EndTING----->
+
+ <!-- Gallery Section -->
+<div class="headingGallery text-center">
+  <span>Some Memories</span>
+  <h1>Our Gallery</h1>
+</div>
+
+  <div class="album">
+    <div class="responsive-container-block bg">
+      <div class="responsive-container-block img-cont">
+        <img class="img" src="https://plus.unsplash.com/premium_photo-1664048712891-f9b6b0c62369?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aGFpciUyMHNhbG9ufGVufDB8fDB8fHww">
+        <img class="img" src="https://media.istockphoto.com/id/1856117770/photo/modern-beauty-salon.webp?a=1&b=1&s=612x612&w=0&k=20&c=0C_tLjCUtXohvrWQdd2gsAwMj3KPsZGxvldK4YlRWvY=">
+        <img class="img img-last" src="https://plus.unsplash.com/premium_photo-1664048712891-f9b6b0c62369?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aGFpciUyMHNhbG9ufGVufDB8fDB8fHww">
+      </div>
+      <div class="responsive-container-block img-cont">
+        <img class="img img-big" src="https://media.istockphoto.com/id/1806099583/photo/male-hairdresser-drying-the-hair-of-a-client-sitting-in-front-of-a-mirror-in-a-modern.jpg?s=612x612&w=0&k=20&c=_Hk_LEXe6lXLHLaIeMhNWfko4be5l8qkr60tffY6lf8=">
+        <img class="img img-big img-last" src="https://media.istockphoto.com/id/1804724168/photo/vertical-photo-of-the-interior-of-a-luxury-modern-hairdressing-and-beauty-salon-with-chairs.jpg?s=612x612&w=0&k=20&c=VhKUse_ImdAmF3fF15FSOXrQyTtnaLAn7AbSLtUmWqU=">
+      </div>
+      <div class="responsive-container-block img-cont">
+        <img class="img" src="https://media.istockphoto.com/id/1806205633/photo/young-woman-enjoying-while-getting-her-hair-washed-by-professional-hairdresser.jpg?s=612x612&w=0&k=20&c=pGP3NJKm_O2xvxOWEYxkDW-RoEIf0UKQWKxt0D383w0=">
+        <img class="img" src="https://media.istockphoto.com/id/1490942973/photo/red-haired-woman-sitting-a-front-of-the-mirror-and-receiving-haircut-her-red-long-hair-by-a.jpg?s=612x612&w=0&k=20&c=Gi23X3Yv3fmYvPE7Wl1GE-yrZCh4PgpZc1kYUYgAjhk=">
+        <img class="img" src="https://media.istockphoto.com/id/1960448357/photo/barber-giving-a-haircut-in-his-shop.jpg?s=612x612&w=0&k=20&c=yJ6WWATIThLsv4oTMbJyebLsr0QC5Z3mnjtSNzQoNo4=">
+      </div>
+    </div>
+  </div>
+
+
+
+ 
+    <!-- Popup container -->
+    <div id="popup" class="popup">
+      <span id="close-popup" class="close">&times;</span>
+      <img id="popup-image" class="popup-image" />
+    </div>
+  </div>
+</section>
+
+
+
+<!--blog starting-->
+<section class="blog-section">
+  <div class="blog-header">
+    <span>Beauty Updates</span>
+    <h1>Recent Posts</h1>
+  </div>
+  <div class="blog-container">
+    <div class="blog-card">
+      <img src="https://dtiva.wpengine.com/wp-content/uploads/2020/05/blog-1-750x640.jpg" alt="Trendy haircut">
+      <h3>Trendy hair cut for  <br>straight hair</h3>
+      <div class="blog-meta">
+        <span><i class="fa-solid fa-user"></i> Admin</span>
+        <span><i class="fa-solid fa-calendar"></i> May 8, 2020</span>
+      </div>
+      <p>Enim praesent elementum facilisis leo<br>. Sed augue
+         lacus viverra vita<br>e congue eu consequat ac...</p>
+    </div>
+    <div class="blog-card">
+      <img src="https://dtiva.wpengine.com/wp-content/uploads/2020/05/blog-2-750x640.jpg" alt="Herbal treatment">
+      <h3>Herbal treatment for <br> dry scalp</h3>
+      <div class="blog-meta">
+        <span><i class="fa-solid fa-user"></i> Admin</span>
+        <span><i class="fa-solid fa-calendar"></i> May 8, 2020</span>
+      </div>
+      <p>Feugiat in ante metus dictum at. Nec <br>feugiat
+         in fermentum posue<br>re urna nec tincidunt...</p>
+    </div>
+    <div class="blog-card">
+      <img src="https://dtiva.wpengine.com/wp-content/uploads/2020/05/blog-3-750x640.jpg" alt="Skincare treatment">
+      <h3>Best multi-step skin <br> care treatment</h3>
+      <div class="blog-meta">
+        <span><i class="fa-solid fa-user"></i> Admin</span>
+        <span><i class="fa-solid fa-calendar"></i> May 8, 2020</span>
+      </div>
+      <p>Massa tincidunt nunc pulvinar sapien <br>et
+         ligula ullamcorper<br> malesuada proin...</p>
+    </div>
+  </div>
+</section>
+
+<!-- Blog Ending-->
+
+
+
+
+<!--Section starting-->
+<section class="sectionServices">
+  <div class="sectionSevice">
+    <i class="fa-solid fa-truck"></i>
+    <div>
+      <h4>Free Shipping</h4>
+      <p>World Wide</p>
+    </div>
+  </div>
+
+  <div class="sectionSevice">
+    <i class="fa-solid fa-phone"></i>
+    <div>
+      <h4>Helpline</h4>
+      <p>+(000)123-4567</p>
+    </div>
+  </div>
+
+  
+  <div class="sectionSevice">
+    <i class="fa-solid fa-exchange"></i>
+    <div>
+      <h4>
+        24x7 Extensive</h4>
+      <p>Customer Support</p>
+    </div>
+  </div>
+
+  <div class="sectionSevice">
+    <i class="fa-solid fa-headset"></i>
+    <div>
+      <h4>Exchanges</h4>
+      <p>Easy Returns</p>
+    </div>
+  </div>
+</section>
+<!--Section ending-->
+
+
+<!-- Testimonial Section -->
+<section class="testimonial-section">
+  <span>Reviews</span>
+  <h1 class="section-title">What Our Clients Say</h1>
+  <div class="owl-carousel owl-theme">
+      <div class="testimonial">
+          <p class="testimonial-text">"The fashion advice I received was top-notch. It completely changed my wardrobe and confidence!"</p>
+          <div class="client-info">
+              <img src="https://image.winudf.com/v2/image1/Y29tLmFuZHJvbW8uZGV2NjkxMTExLmFwcDkxMjU2OF9zY3JlZW5fMTRfMTU0ODQzNDMzMl8wMDc/screen-14.jpg?fakeurl=1&type=.jpg" width="50" alt="Client 1">
+              <div class="info">
+                <h4 class="client-name">Sophia Malik</h4>
+                <span class="client-position">Stylist</span>
+              </div>
+          </div>
+      </div>
+      <div class="testimonial">
+          <p class="testimonial-text">"Their healthcare consultations were incredibly helpful, and the personalized care was outstanding."</p>
+          <div class="client-info">
+              <img src="https://drannkania.com/wp-content/uploads/2020/11/Avoid-Periodontal-Disease-By-Scheduling-A-Deep-Cleaning.jpeg" width="50" alt="Client 2">
+              <div class="info">
+                <h4 class="client-name">Dr. Ayesha Khan</h4>
+                <span class="client-position">Doctor</span>
+              </div>
+          </div>
+      </div>
+      <div class="testimonial">
+          <p class="testimonial-text">"I loved their hair care products! My hair has never felt this healthy and shiny."</p>
+          <div class="client-info">
+              <img src="https://klinikaps.ru/man-31.jpeg" width="50" alt="Client 3">
+              <div class="info">
+                <h4 class="client-name">Liam Sheikh</h4>
+                <span class="client-position">Stylist</span>
+              </div>
+          </div>
+      </div>
+      <div class="testimonial">
+          <p class="testimonial-text">"The skincare routine they suggested has worked wonders for me. Highly recommended!"</p>
+          <div class="client-info">
+              <img src="https://yt3.googleusercontent.com/ytc/APkrFKbWj9-7R7D29D7hQHoeu07f0qsnxMfDJKf7_luE=s900-c-k-c0x00ffffff-no-rj" width="50" alt="Client 4">
+              <div class="info">
+                <h4 class="client-name">Emily Ahmed</h4>
+                <span class="client-position">Expert</span>
+              </div>
+          </div>
+      </div>
+      <div class="testimonial">
+          <p class="testimonial-text">"Their wellness coaching helped me lead a healthier and more balanced life."</p>
+          <div class="client-info">
+              <img src="https://image.winudf.com/v2/image1/Y29tLnNtYXJ0YXBwcy5zY2Fua19zY3JlZW5fMF8xNTcwNDcxNTk0XzA3MA/screen-0.jpg?fakeurl=1&type=.jpg" width="50" alt="Client 5">
+              <div class="info">
+                <h4 class="client-name">Noah Zafar</h4>
+                <span class="client-position">Coach</span>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+      <!--Footer Starting-->
+      <footer class="footer">
+        <div class="container">
+          <div class="col"> 
+ 
+            <div class="footer-col">
+              <h2>Hair <span>Care</span></h2> 
+              <p>It's recommended to trim your hair every 6 to 8 weeks to keep it healthy, remove split ends, and maintain the shape.</p>
+            </div>
+              
+         
+            
+       
+            <div class="footer-col">
+              <h4>Shop</h4>
+              <ul>
+                <li><a href="#">Hair Care</a></li>
+                <li><a href="#">Shampoo</a></li>
+                <li><a href="#">Conditioner</a></li>
+                <li><a href="#">Hair Treatments</a></li>
+                <li><a href="#">Hair Tools</a></li>
+              </ul>
+            </div>
+       
+            <div class="footer-col">
+              <h4>Hair Care Tips</h4>
+              <ul>
+                <li><a href="#">How to Treat Dry Hair</a></li>
+                <li><a href="#">Top Hairstyles for 2024</a></li>
+                <li><a href="#">How to Prevent Hair Fall</a></li>
+                <li><a href="#">Essential Oils for Healthy Hair</a></li>
+              </ul>
+            </div>
+       
+            <div class="footer-col">
+              <h4>Follow Us</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+
+      <!--Footer Endting-->
+      <!--LINK JAVASCRIPT FILE FOR LOGIC-->
+      
+      <script src="./js/script.js"></script> <script src="./js/smothscroll.js"></script>
+      <!-- LINK BOOTSTRAP JS FOR INTERACTIVE COMPONENTS -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+      <!-- LINK AOS JS LIBRARY FOR ANIMATED SCROLL EFFECTS -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <!--Sweet alert-->
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script>
+        // Initialize AOS
+        AOS.init({
+          duration: 1500,
+        });
+
+        //Initiliazed Smooth scroll to anchor links
+        const scroll = new SmoothScroll('a[href*="#"]', {
+          speed: 50,
+          offset: 0,
+          easing: "easeInOutBounce",
+        });
+      </script>
+      <script src="./js/smothscroll.js"></script>
+      <!-- Own Carousel cdn -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      
+</body>
+
+</html>
+
+<!-- hero top-0 section py-2 px-2 overflew-hidden  position-relative  text-center  justify-content-center align-items-center -->

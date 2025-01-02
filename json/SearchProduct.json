@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Hair Cream Smooth",
+    "image": "https://img.joomcdn.net/d9940b3c80ddda739df320ddb94c1396107f4184_original.jpeg",
+    "rating": "★★★★☆",
+    "specialization1": "Tames frizz",
+    "specialization2": "Adds softness",
+    "specialization3": "Infused with argan oil",
+    "specialization4": "Non-greasy formula",
+    "stock": "in stock"
+  },
+  {
+    "name": "Hair Oil Nourishing",
+    "image": "https://chezvoushair.com/core/wp-content/uploads/2021/05/Gold-Lust-Nourishing-Hair-Oil.jpg.png",
+    "rating": "★★★★☆",
+    "specialization1": "Restores moisture",
+    "specialization2": "Strengthens hair",
+    "specialization3": "Reduces split ends",
+    "specialization4": "Lightweight formula",
+    "stock": "out of stock"
+  },
+  {
+    "name": "Hair Shampoo Daily",
+    "image": "https://www.recete.com/cosmed-hair-guard-yaglanmaya-karsi-dengeleyici-kil-sampuani-400ml-595804-5210-52-B.jpg",
+    "rating": "★★★☆☆",
+    "specialization1": "Gentle cleansing",
+    "specialization2": "Removes buildup",
+    "specialization3": "Suitable for daily use",
+    "specialization4": "Adds natural shine",
+    "stock": "in stock"
+  },
+  {
+    "name": "Hair Cream Hydration",
+    "image": "https://cdn.shopify.com/s/files/1/0216/7720/products/TBO10911_1200x1200.png?v=1616931108",
+    "rating": "★★★★★",
+    "specialization1": "Deeply hydrates hair",
+    "specialization2": "Improves manageability",
+    "specialization3": "Silicone-free formula",
+    "specialization4": "Ideal for dry hair",
+    "stock": "out of stock"
+  },
+  {
+    "name": "Hair Oil Repair",
+    "image": "https://www.corpoecapelli.it/images/20231110124005-pantene-olio-infuso-cheratina-pro-v.jpg",
+    "rating": "★★★★☆",
+    "specialization1": "Repairs damaged strands",
+    "specialization2": "Provides heat protection",
+    "specialization3": "Reduces breakage",
+    "specialization4": "For silky hair",
+    "stock": "in stock"
+  },
+  {
+    "name": "Hair Shampoo Anti-Dandruff",
+    "image": "https://www.homoeobazaar.com/clients-images/homayur/image2/134745-5-1000.jpg",
+    "rating": "★★★★☆",
+    "specialization1": "Reduces flakes",
+    "specialization2": "Soothes itchy scalp",
+    "specialization3": "Contains zinc pyrithione",
+    "specialization4": "pH balanced formula",
+    "stock": "out of stock"
+  },
+  {
+    "name": "Hair Cream Volume",
+    "image": "https://profcare.kz/wp-content/uploads/2023/11/1026315-1000x1000-1.jpg",
+    "rating": "★★★★☆",
+    "specialization1": "Boosts hair volume",
+    "specialization2": "Provides long-lasting hold",
+    "specialization3": "Non-sticky texture",
+    "specialization4": "Lightweight finish",
+    "stock": "in stock"
+  },
+  {
+    "name": "Hair Oil Shine",
+    "image": "https://cdn.cimri.io/image/1000x1000/inectomlhindistanceviziyalsabakmya_388250782.jpg",
+    "rating": "★★★★★",
+    "specialization1": "Adds intense shine",
+    "specialization2": "Smoothens hair cuticles",
+    "specialization3": "Protects from humidity",
+    "specialization4": "Ideal for all hair types",
+    "stock": "out of stock"
+  },
+  {
+    "name": "Hair Shampoo Strength",
+    "image": "https://img.joomcdn.net/162ef4044ce0f5c408dd1197b71e813dec178f69_original.jpeg",
+    "rating": "★★★★☆",
+    "specialization1": "Strengthens weak hair",
+    "specialization2": "Repairs split ends",
+    "specialization3": "Infused with keratin",
+    "specialization4": "Gentle for daily use",
+    "stock": "in stock"
+  },
+  {
+    "name": "Hair Cream Repair",
+    "image": "https://www.careandbeauty.com/image/cache/catalog/black-caviar/BC313-1000x1000.jpg",
+    "rating": "★★★★★",
+    "specialization1": "Repairs damaged hair",
+    "specialization2": "Leaves hair silky smooth",
+    "specialization3": "Enriched with keratin",
+    "specialization4": "Ideal for colored hair",
+    "stock": "out of stock"
+  }
+]

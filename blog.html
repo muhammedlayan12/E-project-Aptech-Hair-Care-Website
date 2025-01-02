@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hair Care - Blog</title>
+    <!--LINK CSS FILE FOR STYLING & LAYOUT-->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/blog.css">
+    <!--LINK FONT AWESOME FOR ICONS-->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css'>
+    <!--LINK JQUERY FOR COOL EFFECT-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!--LINK BOOTSTRAP CSS FOR RESPONSIVE DESIGN-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!--LINK AOS LIBRARY CSS FOR ANIMATION-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!--LINK SMOOTH SCROLL LIBRARY FOR SMOOTHLY SCROLLING TO ANCHORS-->
+    <script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.polyfills.min.js"></script>
+    <!--LINK FONT POPPINS-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--LINK FONT JOSEFIN-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--PRELOADER-->
+    <div class="preloader" id="preloader">
+      <div class="loader">
+        <div class="circle"></div>
+      </div>
+    </div>
+    
+    
+
+  <!--NAVBAR STARTING-->
+  <div id="navs" class="navbs d-flex justify-content-sm-between justify-content-center justify-content-lg-evenly"
+  data-aos="silde-up">
+  <div class="logo">Hair <span>Care</span></div>
+  <div class="navigation d-none d-lg-flex">
+    <a href="index.html">Home</a>
+    <a href="compare.html">Compare</a>
+    <a href="product.html">Product</a>
+    <a href="about.html">About</a><a href="blog.html">Blog</a>
+    <a href="remidies.html">Remedies</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <div class="icons d-sm-flex d-none">
+    <i class="py-2 px-2 fa-solid fa-heart"></i>
+    <i class="py-2 px-2 fa-solid fa-bell"></i>
+    <a href="cart.html">
+          <i class="py-2 px-2 fa-solid fa-shopping-cart"></i>
+        </a>
+    <i>
+      <div class="bars d-block d-lg-none" onclick="navToggler()">
+        <i class="fa-solid fa-bars humburger"></i>
+      </div>
+    </i>
+  </div>
+
+  <div class="sideMenu position-fixed top-0 bottom-0">
+    <i class="fa-solid fa-times close-menu position-absolute" onclick="navToggler()"></i>
+    <ul class="d-flex flex-column position-absolute">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="compare.html">Compare</a></li>
+      <li><a href="product.html">Product</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="remidies.html">Remedies</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="navs d-sm-none position-fixed w-100 justify-content-between px-4 bottom-0 d-flex">
+    <span class="d-flex flex-column">
+      <i class="py-2 px-2 fa-solid fa-heart"></i>
+      <span>Wishlist</span>
+    </span>
+    <span class="d-flex flex-column">
+      <i class="py-2 px-2 fa-solid fa-bell"></i>
+      <span>Notification</span>
+    </span>
+    <span class="d-flex flex-column">
+      <a href="cart.html">
+          <i class="py-2 px-2 fa-solid fa-shopping-cart"></i>
+        </a>
+      <span>Cart</span>
+    </span>
+    <span class="d-flex flex-column">
+      <i class="py-2 px-2 fa-solid fa-bars humburger" onclick="navToggler()"></i>
+      <span>Menu</span>
+    </span>
+  </div>
+</div>
+
+<!--NAVBAR ENDING-->
+
+    <!--Breadcrumb Starting-->
+    <div class="breadcrumbs">
+   
+            <h1>Blog</h1>
+            <p>Home <i class="fa-solid fa-chevron-right"></i> <span>Blog</span></p>
+       
+    </div>
+    <!--Breadcrumb Ending-->
+<!--  
+    <section class="blog spad">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="blog__item">
+                      <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-1.jpg" style="background-image: url(&quot;img/blog/blog-1.jpg&quot;);"></div>
+                      <div class="blog__item__text">
+                          <span><img src="img/icon/calendar.png" alt=""> 16 February 2020</span>
+                          <h5>What Curling Irons Are The Best Ones</h5>
+                          <a href="#">Read More</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="blog__item">
+                      <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-2.jpg" style="background-image: url(&quot;img/blog/blog-2.jpg&quot;);"></div>
+                      <div class="blog__item__text">
+                          <span><img src="img/icon/calendar.png" alt=""> 21 February 2020</span>
+                          <h5>Eternity Bands Do Last Forever</h5>
+                          <a href="#">Read More</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="blog__item">
+                      <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-3.jpg" style="background-image: url(&quot;img/blog/blog-3.jpg&quot;);"></div>
+                      <div class="blog__item__text">
+                          <span><img src="img/icon/calendar.png" alt=""> 28 February 2020</span>
+                          <h5>The Health Benefits Of Sunglasses</h5>
+                          <a href="#">Read More</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="blog__item">
+                      <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-4.jpg" style="background-image: url(&quot;img/blog/blog-4.jpg&quot;);"></div>
+                      <div class="blog__item__text">
+                          <span><img src="img/icon/calendar.png" alt=""> 16 February 2020</span>
+                          <h5>Aiming For Higher The Mastopexy</h5>
+                          <a href="#">Read More</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="blog__item">
+                      <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-5.jpg" style="background-image: url(&quot;img/blog/blog-5.jpg&quot;);"></div>
+                      <div class="blog__item__text">
+                          <span><img src="img/icon/calendar.png" alt=""> 21 February 2020</span>
+                          <h5>Wedding Rings A Gift For A Lifetime</h5>
+                          <a href="#">Read More</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="blog__item">
+                      <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-6.jpg" style="background-image: url(&quot;img/blog/blog-6.jpg&quot;);"></div>
+                      <div class="blog__item__text">
+                          <span><img src="img/icon/calendar.png" alt=""> 28 February 2020</span>
+                          <h5>The Different Methods Of Hair Removal</h5>
+                          <a href="#">Read More</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="blog__item">
+                      <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-7.jpg" style="background-image: url(&quot;img/blog/blog-7.jpg&quot;);"></div>
+                      <div class="blog__item__text">
+                          <span><img src="img/icon/calendar.png" alt=""> 16 February 2020</span>
+                          <h5>Hoop Earrings A Style From History</h5>
+                          <a href="#">Read More</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="blog__item">
+                      <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-8.jpg" style="background-image: url(&quot;img/blog/blog-8.jpg&quot;);"></div>
+                      <div class="blog__item__text">
+                          <span><img src="img/icon/calendar.png" alt=""> 21 February 2020</span>
+                          <h5>Lasik Eye Surgery Are You Ready</h5>
+                          <a href="#">Read More</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="blog__item">
+                      <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-9.jpg" style="background-image: url(&quot;img/blog/blog-9.jpg&quot;);"></div>
+                      <div class="blog__item__text">
+                          <span><img src="img/icon/calendar.png" alt=""> 28 February 2020</span>
+                          <h5>Lasik Eye Surgery Are You Ready</h5>
+                          <a href="#">Read More</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section> -->
+  <section class="blog spad">
+    <div class="container">
+        <!-- Main Blog Content -->
+        <div class="blog__content">
+            <div class="row">
+                <div class="blog__item">
+                    <div class="blog__item__pic">
+                        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/curling-iron-index-1624310791.jpg" alt="Blog Image 1">
+                    </div>
+                    <div class="blog__item__text">
+                        <span><i class="fa-solid fa-calendar mx-2"></i> March 20, 2025</span>
+                        <h5>The Ultimate Guide to Choosing Curling Irons</h5>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+
+                <div class="blog__item">
+                    <div class="blog__item__pic">
+                        <img src="https://s.yimg.com/ny/api/res/1.2/Iq.q6bF_3mYzNxAgoGfFKQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MA--/https://s.yimg.com/os/creatr-uploaded-images/2022-02/81649020-89b5-11ec-afd6-ebc72eaf3133" alt="Blog Image 2">
+                    </div>
+                    <div class="blog__item__text">
+                        <span><i class="fa-solid fa-calendar mx-2"></i> March 18, 2025</span>
+                        <h5>Why Eternity Bands Are Timeless</h5>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+
+                <div class="blog__item">
+                    <div class="blog__item__pic">
+                        <img src="https://media-cldnry.s-nbcnews.com/image/upload/MSNBC/Components/Video/201612/x_tdy_DRUGSTOREBEAUTY_161206.jpg" alt="Blog Image 3">
+                    </div>
+                    <div class="blog__item__text">
+                        <span><i class="fa-solid fa-calendar mx-2"></i> March 15, 2025</span>
+                        <h5>Exploring the Health Benefits of Sunglasses</h5>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+
+                <div class="blog__item">
+                    <div class="blog__item__pic">
+                        <img src="https://i.pinimg.com/originals/a3/f5/76/a3f5762e5866dad620a05b8b82366dca.png" alt="Blog Image 4">
+                    </div>
+                    <div class="blog__item__text">
+                        <span><i class="fa-solid fa-calendar mx-2"></i> March 15, 2025</span>
+                        <h5>The Truth About Beauty Trends in 2025</h5>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+
+                <div class="blog__item">
+                    <div class="blog__item__pic">
+                        <img src="https://images.bfmtv.com/WfOG685qnLBI6tVmUW0LkB8QW0Q=/7x111:2039x1254/2032x0/images/Ces-3-lunettes-de-soleil-pour-femme-a-moins-de-20-sont-parfaites-pour-cet-ete-1660711.jpg" alt="Blog Image 5">
+                    </div>
+                    <div class="blog__item__text">
+                        <span><i class="fa-solid fa-calendar mx-2"></i> March 15, 2025</span>
+                        <h5>Top Sunglasses Styles for 2025</h5>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+
+                <div class="blog__item">
+                    <div class="blog__item__pic">
+                        <img src="https://www.headcurve.com/wp-content/uploads/2020/07/types-of-hair-products-july092020-min.jpg" alt="Blog Image 6">
+                    </div>
+                    <div class="blog__item__text">
+                        <span><i class="fa-solid fa-calendar mx-2"></i> March 15, 2025</span>
+                        <h5>Why Beauty Trends Matter: A Deep Dive</h5>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <aside class="blog__sidebar">
+            <h4 class="sidebar__title">Recent Posts</h4>
+            <div class="sidebar__recent-posts">
+                <div class="recent-post__item">
+                    <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/newscms/2020_44/3424468/201030-curling-irons-2x1.jpg" alt="Post 1">
+                    <h6>What Curling Irons Are The Best Ones</h6>
+                </div>
+                <div class="recent-post__item">
+                    <img src="https://zadok.com/wp-content/uploads/RBS200-PL-BG-B-1-600x600.jpg" alt="Post 2">
+                    <h6>Eternity Bands Do Last Forever</h6>
+                </div>
+                <div class="recent-post__item">
+                    <img src="https://www.original-vintage.com/wp/wp-content/uploads/2019/03/joshua-forbes-550906-unsplash.jpg" alt="Post 3">
+                    <h6>The Health Benefits Of Sunglasses</h6>
+                </div>
+            </div>
+
+            <h4 class="sidebar__title">Categories</h4>
+            <div class="sidebar__categories">
+                <ul>
+                    <li><a href="#">Fashion</a></li>
+                    <li><a href="#">Lifestyle</a></li>
+                    <li><a href="#">Health</a></li>
+                    <li><a href="#">Beauty</a></li>
+                </ul>
+            </div>
+
+            <h4 class="sidebar__title">Featured Products</h4>
+            <div class="sidebar__featured-products">
+                <div class="featured-product__item">
+                    <img src="https://cdn.lbtq.io/productImage/original/20160920/100/20160920100227_002661214_1.jpg" alt="Product 1">
+                    <h6>Hair Cream Smooth</h6>
+                </div>
+                <div class="featured-product__item">
+                    <img src="https://www.net-a-porter.com/variants/images/665933303132823/in/w2000_a3-4_q60.jpg" alt="Product 2">
+                    <h6>Hair Oil Nourishing</h6>
+                </div>
+            </div>
+
+            <h4 class="sidebar__title">Archives</h4>
+            <div class="sidebar__archives">
+                <ul>
+                    <li><a href="#">January 2025</a></li>
+                    <li><a href="#">February 2025</a></li>
+                    <li><a href="#">March 2025</a></li>
+                </ul>
+            </div>
+
+            <h4 class="sidebar__title">Tags</h4>
+            <div class="sidebar__tags">
+                <span class="sidebar__tag">fashion</span>
+                <span class="sidebar__tag">lifestyle</span>
+                <span class="sidebar__tag">health</span>
+                <span class="sidebar__tag">beauty</span>
+            </div>
+        </aside>
+
+    </div>
+</section>
+
+
+<!-- Latest development section starting  -->
+<section class="latest-developments">
+  <span class="my-4">Latest Development</span>
+  <h2 class="section-title">Latest Developments in Industry</h2>
+  
+  <div class="card-container"> 
+    <div class="latest-item">
+      <img src="https://www.revolutionbeauty.com/dw/image/v2/BCZJ_PRD/on/demandware.static/-/Sites-revbe-master-catalog/default/dw3e258012/images/hi-res/KH274_Revolution_Curl-Hair_9515.jpg?sw=660&sh=660&sm=fit&strip=false" alt="Hair Care Product Innovation">
+      <div class="content">
+        <h3>Revolutionary Hair Care Products</h3>
+        <p>Discover the latest breakthroughs in hair care products that use cutting-edge ingredients and technology to deliver stronger, healthier hair. From revitalizing shampoos to nourishing serums, these products are transforming the industry.</p>
+        <a href="https://en.wikipedia.org/wiki/Special:Search?go=Go&search=Revolutionary+Hair+Care+Products&ns0=1" target="_blank">Read More <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+ 
+    <div class="latest-item">
+      <img src="https://thejournalmag.com/wp-content/uploads/2023/04/fa07bb69-aveda-scalp-solutions-malaysia-ca.jpg" alt="Scalp Care Solutions">
+      <div class="content">
+        <h3>Innovative Scalp Care Solutions</h3>
+        <p>The importance of scalp health has never been more evident. Learn about the latest scalp care treatments that address hair thinning, dandruff, and overall scalp well-being, designed to promote healthy hair growth.</p>
+        <a href="https://en.wikipedia.org/w/index.php?search=Innovative+Scalp+Care+Solutions&title=Special%3ASearch&ns0=1" target="_blank">Read More <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+ 
+    <div class="latest-item">
+      <img src="https://images.hellomagazine.com/horizon/landscape/d81aa7c50abb-revolution-hero-t.jpg" alt="Hair Loss Treatment Innovation">
+      <div class="content">
+        <h3>Hair Loss Treatments and Innovations</h3>
+        <p>Stay ahead of the curve with the latest advancements in hair loss treatments, including medical-grade products and therapies designed to restore and strengthen hair growth for individuals struggling with thinning hair.</p>
+        <a href="https://en.wikipedia.org/w/index.php?search=Hair+Loss+Treatments+and+Innovations&title=Special%3ASearch&ns0=1" target="_blank">Read More <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+
+   
+  </div>
+</section>
+
+<div class="social-icons">
+  <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+  <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+  <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+  <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+</div>
+
+
+<!-- Latest development section ending  -->
+
+
+
+<!-- Companies section starting -->
+<section class="companies-equipment-section">
+  <span class="my-4">Companies Equipment</span>
+  <h2 class="section-title">Which Companies Provides Which Equipment</h2>
+  <div class="companies-list">
+    <!-- Company 1 -->
+    <div class="company-card">
+      <div class="company-header">
+        <img src="https://i.pinimg.com/originals/8c/b1/b3/8cb1b325378e1ce024a23ba83e163319.jpg" alt="Company 1 Logo" class="company-logo">
+        <h2 class="company-name">HairCare Pro</h2>
+        <button class="toggle-details">Show Details</button>
+      </div>
+      <div class="company-details">
+        <p><strong>Equipment Provided:</strong> Hair Dryers, Curling Irons, Hair Clippers</p>
+        <p><strong>Hair Care Products:</strong> Shampoos, Conditioners, Hair Serums</p>
+        <p><strong>Location:</strong> Los Angeles, USA</p>
+        <p><strong>Contact:</strong> 123-456-7890</p>
+      </div>
+    </div>
+
+    <!-- Company 2 -->
+    <div class="company-card">
+      <div class="company-header">
+        <img src="https://thumbs.dreamstime.com/b/nail-salon-concept-technician-bar-manicurist-being-painted-brush-56804609.jpg" alt="Company 2 Logo" class="company-logo">
+        <h2 class="company-name">Salon Tech</h2>
+        <button class="toggle-details">Show Details</button>
+      </div>
+      <div class="company-details">
+        <p><strong>Equipment Provided:</strong> Professional Hair Steamers, Hair Brushes, Straighteners</p>
+        <p><strong>Hair Care Products:</strong> Hair Oils, Masks, Color Protect Shampoos</p>
+        <p><strong>Location:</strong> New York, USA</p>
+        <p><strong>Contact:</strong> 987-654-3210</p>
+      </div>
+    </div>
+
+    <!-- Company 3 -->
+    <div class="company-card">
+      <div class="company-header">
+        <img src="https://taplink.st/a/5/6/3/b/45ba3e.jpg?1" alt="Company 3 Logo" class="company-logo">
+        <h2 class="company-name">Beauty X</h2>
+        <button class="toggle-details">Show Details</button>
+      </div>
+      <div class="company-details">
+        <p><strong>Equipment Provided:</strong> Hair Rollers, Blow Dryers, Hair Brushes</p>
+        <p><strong>Hair Care Products:</strong> Shampoos, Conditioners, Volumizing Sprays</p>
+        <p><strong>Location:</strong> Miami, USA</p>
+        <p><strong>Contact:</strong> 555-123-4567</p>
+      </div>
+    </div>
+
+    <!-- Company 4 -->
+    <div class="company-card">
+      <div class="company-header">
+        <img src="https://www.stroimdom.com.ua/uploads/monthly_2023_08/hair-8.thumb.png.88f93a46500225fe6b7532a53a756bcf.png" alt="Company 4 Logo" class="company-logo">
+        <h2 class="company-name">Lux Hair</h2>
+        <button class="toggle-details">Show Details</button>
+      </div>
+      <div class="company-details">
+        <p><strong>Equipment Provided:</strong> Professional Hair Cutting Shears, Hot Brushes, Hair Color Kits</p>
+        <p><strong>Hair Care Products:</strong> Keratin Treatments, Anti-Frizz Serums</p>
+        <p><strong>Location:</strong> Chicago, USA</p>
+        <p><strong>Contact:</strong> 222-333-4444</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Companies section ending -->
+
+
+
+
+  <!--Footer Starting-->
+      <footer class="footer">
+        <div class="container">
+          <div class="col"> 
+ 
+            <div class="footer-col">
+              <h2>Hair <span>Care</span></h2> 
+              <p>It's recommended to trim your hair every 6 to 8 weeks to keep it healthy, remove split ends, and maintain the shape.</p>
+            </div>
+              
+         
+            
+       
+            <div class="footer-col">
+              <h4>Shop</h4>
+              <ul>
+                <li><a href="#">Hair Care</a></li>
+                <li><a href="#">Shampoo</a></li>
+                <li><a href="#">Conditioner</a></li>
+                <li><a href="#">Hair Treatments</a></li>
+                <li><a href="#">Hair Tools</a></li>
+              </ul>
+            </div>
+       
+            <div class="footer-col">
+              <h4>Hair Care Tips</h4>
+              <ul>
+                <li><a href="#">How to Treat Dry Hair</a></li>
+                <li><a href="#">Top Hairstyles for 2024</a></li>
+                <li><a href="#">How to Prevent Hair Fall</a></li>
+                <li><a href="#">Essential Oils for Healthy Hair</a></li>
+              </ul>
+            </div>
+       
+            <div class="footer-col">
+              <h4>Follow Us</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+    
+  <!--Footer Endting-->
+  <script src="./js/compare.js"></script>
+    <!--LINK JAVASCRIPT FILE FOR LOGIC-->
+    <script src="./js/script.js"></script> 
+    <script src="./js/blog.js"></script>
+    <script src="./js/smothscroll.js"></script>
+    <!-- LINK BOOTSTRAP JS FOR INTERACTIVE COMPONENTS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- LINK AOS JS LIBRARY FOR ANIMATED SCROLL EFFECTS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      // Initialize AOS
+      AOS.init({
+        duration: 1500,
+      });
+
+      //Initiliazed Smooth scroll to anchor links
+      const scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 50,
+        offset: 0,
+        easing: "easeInOutBounce",
+      });
+    </script>
+  </body>
+</html>
+ 

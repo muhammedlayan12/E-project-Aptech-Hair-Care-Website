@@ -1,0 +1,140 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Hair Dryer",
+        "category": "Dryers",
+        "pic": "https://cdn.nicehair.dk/products/70880/hh-simonsen-midi-hair-dryer-black-1.jpg",
+        "manual": {
+          "howToUse": [
+            "Step 1: Plug the hair dryer into the power socket.<br>",
+            "Step 2: Select the heat setting using the dial.<br>",
+            "Step 3: Dry your hair by directing the nozzle at the roots."
+          ],
+          "maintenance": [
+            "Regularly clean the filter.<br>",
+            "Turn off the device after use.<br>",
+            "Store it in a dry place when not in use."
+          ],
+          "troubleshooting": [
+            "If the hair dryer isn't turning on, check if it's properly plugged in.<br>",
+            "If it overheats, allow it to cool down before use."
+          ],
+          "downloadLink": "manuals/hair-dryer.pdf"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Hair Straightener",
+        "category": "Straighteners","pic": "https://datamation.in/wp-content/uploads/2021/06/Panasonic-EH-HV10VP62Bdatamation-950x950.jpg",
+      
+        "manual": {
+          "howToUse": [
+            "Step 1: Plug in the straightener and select the desired heat setting.<br>",
+            "Step 2: Divide your hair into sections and slowly glide the straightener through each section."
+          ],
+          "maintenance": [
+            "Keep the plates clean by wiping them with a damp cloth.<br>",
+            "Store in a dry place when not in use."
+          ],
+          "troubleshooting": [
+            "If the straightener isn't heating, check the power cable.<br>",
+            "If it gets too hot, allow it to cool down before using again."
+          ],
+          "downloadLink": "manuals/hair-straightener.pdf"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Spray Bottle",
+        "category": "Spray Bottles","pic": "https://www.dhresource.com/600x600/f2/albu/g9/M01/B3/19/rBVaWF1IJDWAe3B7AAHBTqEklzs186.jpg",
+      
+        "manual": {
+          "howToUse": [
+            "Step 1: Fill the bottle with water or a desired liquid.<br>",
+            "Step 2: Twist the nozzle to adjust the spray flow.<br>",
+            "Step 3: Press the nozzle to spray the liquid."
+          ],
+          "maintenance": [
+            "Clean the nozzle and bottle regularly to avoid clogging.<br>",
+            "Ensure the cap is securely closed when not in use."
+          ],
+          "troubleshooting": [
+            "If the spray isn’t working, check if the nozzle is clogged.<br>",
+            "Ensure the bottle is not overfilled."
+          ],
+          "downloadLink": "manuals/spray-bottle.pdf"
+        }
+      },
+      {
+        "id": 4,
+        "name": "Facial Steamer",
+        "category": "Steamers",
+        "pic": "https://gemsbeautystore.com/images/41mg2gtv8nL.jpg",
+      
+        "manual": {
+          "howToUse": [
+            "Step 1: Fill the water tank with distilled water.<br>",
+            "Step 2: Turn on the steamer and wait for it to heat up.<br>",
+            "Step 3: Hold your face about 6-8 inches away from the steam for 5-10 minutes."
+          ],
+          "maintenance": [
+            "Empty the water tank after every use.<br>",
+            "Clean the steamer regularly to prevent mineral buildup."
+          ],
+          "troubleshooting": [
+            "If the steamer isn't producing steam, ensure the tank is filled with water.<br>",
+            "If the steam is weak, clean the water tank and nozzle."
+          ],
+          "downloadLink": "manuals/facial-steamer.pdf"
+        }
+      },
+      {
+        "id": 5,
+        "name": "Hand Massager",
+        "category": "Massagers",
+        "pic": "https://a.allegroimg.com/original/06e753/96a1ca4f47b9a19660b5223b75ca/AJURWEDYJSKI-MASAZER-GLOWY-MASAZ-SKORY-DRAPAK-Zasilanie-brak",
+      
+        "manual": {
+          "howToUse": [
+            "Step 1: Power on the massager.<br>",
+            "Step 2: Select the massage intensity level.<br>",
+            "Step 3: Place your hands in the designated slots for a comfortable massage."
+          ],
+          "maintenance": [
+            "Wipe the surface with a soft, damp cloth after each use.<br>",
+            "Ensure the device is powered off before storing."
+          ],
+          "troubleshooting": [
+            "If the massager is not turning on, check the battery or plug it into a charger.<br>",
+            "If the massage feels weak, check if the device needs cleaning."
+          ],
+          "downloadLink": "manuals/hand-massager.pdf"
+        }
+      },
+      {
+        "id": 6,
+        "name": "Spa Cap",
+        "pic": "https://img.staticdj.com/2b4c2cd72dfaad4ba1d5549008eaad29.jpeg",
+      
+        "category": "Spa Caps",
+        "manual": {
+          "howToUse": [
+            "Step 1: Place the spa cap on your head and adjust it for a snug fit.<br>",
+            "Step 2: Turn on the heat settings if applicable.<br>",
+            "Step 3: Use for the recommended duration as per the product instructions."
+          ],
+          "maintenance": [
+            "Clean the spa cap after every use to remove any residue.<br>",
+            "Avoid submerging the electrical parts in water."
+          ],
+          "troubleshooting": [
+            "If the spa cap isn't heating, check if the power source is connected.<br>",
+            "If there is no steam, make sure the water tank is filled properly."
+          ],
+          "downloadLink": "manuals/spa-cap.pdf"
+        }
+      }
+    ]
+  }
+  

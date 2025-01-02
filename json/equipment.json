@@ -1,0 +1,87 @@
+[
+    {
+      "id": 1,
+      "name": " ",
+      "title": "Hair Dryers",
+      "pic": "https://cdn.nicehair.dk/products/70880/hh-simonsen-midi-hair-dryer-black-1.jpg",
+      "productimg1": "/images/dryer1.jpg",
+      "productimg2": "/images/dryer2.jpg",
+      "productheading1": "Quick Drying with TurboDry",
+      "productheading2": "Get Salon Results with TurboDry",
+      "productdec1": "TurboDry offers a powerful airflow to dry your hair quickly while minimizing heat damage. Its lightweight design ensures easy handling, and the advanced ceramic technology helps maintain moisture in your hair.",
+      "productdec2": "Achieve professional-grade results at home with TurboDry. Equipped with multiple heat settings and a cool shot button, this hair dryer allows for versatile styling. The gentle airflow and temperature control ensure healthier, shinier hair.",
+      "des1": "Advanced dryers designed for faster, safer hair drying.",
+      "des2": "Hair dryers can reduce drying time, prevent heat damage, and provide styling versatility with adjustable heat and speed settings."
+    },
+    {
+      "id": 2,
+      "name": "Straighteners",
+      "title": "Hair Straighteners",
+      "pic": "https://datamation.in/wp-content/uploads/2021/06/Panasonic-EH-HV10VP62Bdatamation-950x950.jpg",
+      "productimg1": "/images/straightener1.jpg",
+      "productimg2": "/images/straightener2.jpg",
+      "productheading1": "Smooth and Sleek Hair with UltraStraight",
+      "productheading2": "Achieve Flawless Results with UltraStraight",
+      "productdec1": "UltraStraight offers a smooth glide and even heat distribution to straighten hair without causing damage. The ceramic plates lock in moisture and leave your hair sleek and shiny.",
+      "productdec2": "UltraStraight is designed for quick styling with long-lasting results. The adjustable temperature settings provide maximum control, allowing you to customize the heat for different hair types.",
+      "des1": "Straighteners for sleek, frizz-free hair.",
+      "des2": "Hair straighteners provide smooth, straight hair with minimal frizz and shine. They use advanced heat technology to straighten hair efficiently."
+    },
+    {
+      "id": 3,
+      "name": "Spray Bottles",
+      "title": "Hair Spray Bottles",
+      "pic": "https://www.dhresource.com/600x600/f2/albu/g9/M01/B3/19/rBVaWF1IJDWAe3B7AAHBTqEklzs186.jpg",
+      "productimg1": "/images/spraybottle1.jpg",
+      "productimg2": "/images/spraybottle2.jpg",
+      "productheading1": "Easy Application with MistSpray",
+      "productheading2": "Perfect for Hair Styling with MistSpray",
+      "productdec1": "MistSpray provides a fine mist for even distribution of hair products. Perfect for refreshing your hair or applying leave-in conditioners, the bottle ensures no product wastage.",
+      "productdec2": "With its ergonomic design, MistSpray ensures a comfortable grip and easy application. The bottle can be used for both water and hair care solutions.",
+      "des1": "Convenient spray bottles for hair products and treatments.",
+      "des2": "Spray bottles offer controlled, even distribution of liquids for hair care treatments, keeping your hair hydrated and styled."
+    },
+    {
+      "id": 4,
+      "name": "Steamers",
+      "title": "Hair Steamers",
+      "pic": "https://gemsbeautystore.com/images/41mg2gtv8nL.jpg",
+      "productimg1": "/images/equipmentimg4.jpg",
+      "productimg2": "/images/steamer2.jpg",
+      "productheading1": "Deep Conditioning with SteamCare",
+      "productheading2": "Restore Shine with SteamCare",
+      "productdec1": "SteamCare opens up the hair cuticles, allowing deep conditioning treatments to penetrate better. This steamer helps nourish dry and damaged hair while improving moisture retention.",
+      "productdec2": "Enjoy soft, healthy hair with SteamCare. The device provides a consistent stream of steam, enhancing the absorption of hair masks and oils, leaving your hair feeling rejuvenated.",
+      "des1": "Steamers for intense moisture and deep conditioning.",
+      "des2": "Hair steamers provide deep hydration and help restore shine by opening hair cuticles, allowing conditioners to penetrate deeply."
+    },
+    {
+      "id": 5,
+      "name": "Massagers",
+      "title": "Scalp Massagers",
+      "pic": "https://a.allegroimg.com/original/06e753/96a1ca4f47b9a19660b5223b75ca/AJURWEDYJSKI-MASAZER-GLOWY-MASAZ-SKORY-DRAPAK-Zasilanie-brak",
+      "productimg1": "/images/massager1.jpg",
+      "productimg2": "/images/massager2.jpg",
+      "productheading1": "Relieve Tension with ScalpEase",
+      "productheading2": "Boost Circulation with ScalpEase",
+      "productdec1": "ScalpEase gently massages your scalp, increasing blood circulation and promoting hair growth. The soft bristles provide a relaxing massage that also helps remove buildup from your scalp.",
+      "productdec2": "Use ScalpEase for a soothing scalp massage that also enhances product absorption. It can help reduce stress and promote relaxation while improving hair health.",
+      "des1": "Scalp massagers to improve circulation and stimulate hair growth.",
+      "des2": "Massagers help stimulate hair follicles, improve circulation to the scalp, and provide a relaxing, stress-relieving experience."
+    },
+    {
+      "id": 6,
+      "name": "Spa Caps",
+      "title": "Hair Spa Caps",
+      "pic": "https://img.staticdj.com/2b4c2cd72dfaad4ba1d5549008eaad29.jpeg",
+      "productimg1": "/images/spacap1.jpg",
+      "productimg2": "/images/spacap2.jpg",
+      "productheading1": "Hydrate and Nourish with SpaCap",
+      "productheading2": "Enhance Treatments with SpaCap",
+      "productdec1": "SpaCap creates a warm, moist environment for deep conditioning treatments. It helps lock in moisture and nutrients, allowing hair care treatments to work more effectively.",
+      "productdec2": "The SpaCap is designed to provide a gentle heat that enhances your hair treatment. It opens the hair cuticles, allowing oils and masks to penetrate deeply, leaving your hair soft and nourished.",
+      "des1": "Spa caps to enhance hair treatments and restore moisture.",
+      "des2": "Hair spa caps create a warm, humid environment for deeper absorption of hair masks and conditioners, improving their effectiveness."
+    }
+  ]
+  

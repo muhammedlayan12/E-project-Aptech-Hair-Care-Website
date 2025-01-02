@@ -1,0 +1,160 @@
+.popupsss{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    right: 0;
+    padding: 10vmin 4vmin;
+    bottom: 0;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    align-items: center; 
+    justify-content: center;
+    display: none;
+}
+
+.popupsss .popup{
+    align-items: center;
+    justify-content: center;
+    display: flex;  
+    gap: 4vmin;
+    overflow: hidden;
+    width: 65%;
+    flex-direction: column;
+    height: 65%;
+    position: relative;
+    background-color: #fff; 
+    padding: 12vmin 3vmin;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.popupsss .popup .pop{
+    display: flex;
+    align-items: center;
+    gap: 4vmin;
+    flex-direction: row;
+}
+
+
+@media screen and (max-width: 1600px) {
+    .popupsss .popup{ 
+        width: 85%; 
+    }
+    
+}
+
+
+@media screen and (max-width: 1350px) {
+    .popupsss .popup{ 
+        height: 85%;
+        width: 90%; 
+    }
+    
+}
+
+@media screen and (max-width: 1050px) {
+    .popupsss .popup{ 
+        height: 100%;
+    }
+
+    .popupsss .popup .pop .content .rating {
+       justify-content: center;
+    }
+
+    .popupsss .popup .pop{
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .popupsss .popup .pop img{
+        margin: auto;
+    }
+    
+}
+
+
+.popupsss .popup .pop  img{
+    width: 450px;
+}
+
+@media screen and (max-width:600px) {
+    .popupsss .popup .pop img{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    .popupsss .popup{
+        width: 100%;
+    }
+    
+}
+.popupsss .popup .cut{
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    cursor: pointer;
+}
+
+.popupsss .popup .pop .content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.popupsss .popup .pop .content span{
+    font-family: var(--poppins);
+    font-size: 1em;
+    color: var(--text);
+
+}
+
+
+
+.popupsss .popup .pop .content h1{
+    font-family: var(--poppins);
+    color: var(--black);
+    
+}
+
+.popupsss .popup .pop .content p{
+    font-family: var(--poppins);
+    color: var(--text);
+    font-size: 1em;
+    
+}
+.popupsss .popup .pop .content .rating {
+    display: flex;
+    gap: 2vmin;
+    
+}
+
+.popupsss .popup .pop .content .rating i{
+    color: rgb(255, 255, 60);
+    font-size: 0.8em; 
+    
+}
+
+
+
+.popupsss .popup .pop .content .rating span{
+    color: var(--black);
+    font-size: 1em; 
+    
+}
+
+
+.popupsss .popup .pop .content a{
+    color: var(--white);
+    font-size: 1em;
+    background: var(--pink);
+    font-family: var(--poppins);
+}
+
+
+
