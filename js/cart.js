@@ -44,13 +44,26 @@ function renderCarts() {
       `;
       
       cartContainer.appendChild(cartItem);
+     
       total();
     });
   }
   
   
   window.onload = renderCarts;
-  
+
+
+  // function checkoutShow(){
+  //   const  Container = document.getElementsByClassName('cartItems')[0];
+  //   if(Container.children <= 0) {
+  //     document.querySelector('.checkout').style.display = 'block';
+  //   } else{
+  //     document.querySelector('.checkout').style.display = 'none';
+  //   }
+  // }
+
+  // window.onload = checkoutShow;
+   
   function total() {
     let cart = JSON.parse(localStorage.getItem('itemCart')) || [];
     let totals = 0;

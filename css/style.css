@@ -3638,6 +3638,7 @@ text-align: center;
        /*checkout starting*/
 
        .checkout{
+      
         padding: 4vmin 1vmin;
         display: flex;
         flex-direction: column;
@@ -3680,7 +3681,8 @@ text-align: center;
       .checkout button{
         border: 3px solid  var(--pink);
         font-family: var(--poppins);
-        padding: 1.5vmin 2.5vmin;
+        padding: 0.7vmin 3vmin;
+        font-size: 0.9em;
         color: var(--white);
         background-color: var(--pink);
         border-radius: 35px;
@@ -3765,4 +3767,35 @@ text-align: center;
 
 .boiler-item a:hover {
   text-decoration: underline;
+}
+
+
+.documentation{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 10vmin 1vmin;
+}
+
+
+
+
+.documentation a{
+  background: var(--pink);
+  color: var(--white);
+  border: 3px solid var(--pink);
+  font-family: var(--poppins);
+  text-decoration: none;
+  margin: auto;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  padding: 1vmin 2vmin;
+  border-radius: 45px;
+  transition:all 1s ease;
+}
+
+.documentation a:hover{
+  background: var(--white);
+  color: var(--black);
+  
 }
